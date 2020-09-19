@@ -39,6 +39,16 @@ class ViewController: NSViewController,NSTableViewDataSource, NSTableViewDelegat
         return cell
     }
     
+    @IBAction func newSong(_ sender: Any) {
+        //讀取新檔案
+        let openPanel = NSOpenPanel()
+        openPanel.allowsMultipleSelection = false
+        openPanel.allowedFileTypes = ["mp3","m4a"]
+        openPanel.allowsOtherFileTypes = false
+        openPanel.beginSheetModal(for: self.view.window!) { (id) in
+            print(id)
+        }
+    }
     
     
 }

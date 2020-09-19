@@ -190,6 +190,17 @@
                                     <action selector="play:" target="XfG-lQ-9wD" id="dys-d5-GAp"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s74-pn-Dls">
+                                <rect key="frame" x="250" y="222" width="216" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="新歌" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qMi-Ih-EUg">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name=".PingFangTC-Regular"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="newSong:" target="XfG-lQ-9wD" id="rBH-hN-07l"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="RDo-ux-9h4" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="1VI-8s-lge"/>

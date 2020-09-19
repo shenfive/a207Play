@@ -12,6 +12,8 @@
 		BA2810A82515EEC4002E78E3 /* a207Play.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA2810A62515EEC4002E78E3 /* a207Play.xcdatamodeld */; };
 		BA2810AA2515EEC5002E78E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2810A92515EEC5002E78E3 /* Assets.xcassets */; };
 		BA2810AD2515EEC5002E78E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2810AB2515EEC5002E78E3 /* Main.storyboard */; };
+		BA2810B82515F6FB002E78E3 /* 3-20-i-MiSS-U-2-Namewee-ft-Joyce-Chu-CROSSOVER-ASIA-2017-YouTube.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA2810B62515F6FB002E78E3 /* 3-20-i-MiSS-U-2-Namewee-ft-Joyce-Chu-CROSSOVER-ASIA-2017-YouTube.mp3 */; };
+		BA2810B92515F6FB002E78E3 /* 3-20PUFFY-No5-YouTube.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA2810B72515F6FB002E78E3 /* 3-20PUFFY-No5-YouTube.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		BA2810AC2515EEC5002E78E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA2810AE2515EEC5002E78E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA2810AF2515EEC5002E78E3 /* a207Play.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = a207Play.entitlements; sourceTree = "<group>"; };
+		BA2810B62515F6FB002E78E3 /* 3-20-i-MiSS-U-2-Namewee-ft-Joyce-Chu-CROSSOVER-ASIA-2017-YouTube.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-20-i-MiSS-U-2-Namewee-ft-Joyce-Chu-CROSSOVER-ASIA-2017-YouTube.mp3"; sourceTree = "<group>"; };
+		BA2810B72515F6FB002E78E3 /* 3-20PUFFY-No5-YouTube.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3-20PUFFY-No5-YouTube.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				BA2810A22515EEC4002E78E3 /* AppDelegate.swift */,
 				BA2810A42515EEC4002E78E3 /* ViewController.swift */,
+				BA2810B62515F6FB002E78E3 /* 3-20-i-MiSS-U-2-Namewee-ft-Joyce-Chu-CROSSOVER-ASIA-2017-YouTube.mp3 */,
+				BA2810B72515F6FB002E78E3 /* 3-20PUFFY-No5-YouTube.mp3 */,
 				BA2810A92515EEC5002E78E3 /* Assets.xcassets */,
 				BA2810AB2515EEC5002E78E3 /* Main.storyboard */,
 				BA2810AE2515EEC5002E78E3 /* Info.plist */,
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2810B92515F6FB002E78E3 /* 3-20PUFFY-No5-YouTube.mp3 in Resources */,
+				BA2810B82515F6FB002E78E3 /* 3-20-i-MiSS-U-2-Namewee-ft-Joyce-Chu-CROSSOVER-ASIA-2017-YouTube.mp3 in Resources */,
 				BA2810AA2515EEC5002E78E3 /* Assets.xcassets in Resources */,
 				BA2810AD2515EEC5002E78E3 /* Main.storyboard in Resources */,
 			);

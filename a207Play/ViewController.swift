@@ -6,14 +6,17 @@
 //
 
 import Cocoa
+import AVFoundation
 
 class ViewController: NSViewController,NSTableViewDataSource, NSTableViewDelegate {
 
     @IBOutlet weak var theTableView: NSTableView!
+    var myPlayer:AVAudioPlayer? = nil
     override func viewDidLoad() {
         super.viewDidLoad()
         theTableView.delegate = self
         theTableView.dataSource = self
+
  
     }
 
@@ -46,7 +49,21 @@ class ViewController: NSViewController,NSTableViewDataSource, NSTableViewDelegat
         openPanel.allowedFileTypes = ["mp3","m4a"]
         openPanel.allowsOtherFileTypes = false
         openPanel.beginSheetModal(for: self.view.window!) { (id) in
-            print(id)
+            if id.rawValue == 1{
+                print(openPanel.url?.absoluteString)
+                
+                do{
+                    let urlPath = openPanel.url?.absoluteString
+                    let url = URL(string: urlPath!)
+                    try self.myPlayer = AVAudioPlayer(contentsOf: url!)
+                    self.myPlayer?.play()
+                }catch{
+                    print(error.localizedDescription)
+                }
+//                PlayList(context: self.context)
+//                playList.fileLocation = openPanel.url?.absoluteString
+//                playList.filename = openPanel.url?.lastPathComponent
+            }
         }
     }
     
